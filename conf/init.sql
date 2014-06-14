@@ -1,0 +1,3 @@
+CREATE DATABASE IF NOT EXISTS wordpress;
+GRANT ALL PRIVILEGES ON wordpress.* TO wordpressuser@localhost IDENTIFIED BY 'password';
+FLUSH PRIVILEGES;
